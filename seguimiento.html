@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguimiento | Rescue Pets</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-grey navbar-blue">
+        <!-- Brand -->
+        <a class="navbar-brand" href="pagprincipal.html">
+          <img src="img/2884797_church_love_wedding_icon.png" style="height: 70px;" alt="">
+        </a>
+        
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler btn btn-info" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon justify-content-end"></span>
+        </button>
+      
+        <!-- Navbar links -->
+        <h2>Rescue Pets</h2>
+        <div class="container justify-content-end">
+          
+            
+          
+          <!--bolsita-->
+          <a href="carrocompra.html">
+            <img src="img/172551_bag_shopping_icon.png" style="height: 50px;" alt="">
+          </a>
+          <!--usuario-->
+          <a href="usuario.html">
+            <img src="img/1564534_customer_man_user_account_profile_icon.png" style="height: 50px;" alt="">
+          </a>
+          <div class="dropdown justify-content-end">
+            <button class="btn dropdown-toggle  " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="img/8209106_user_interface_ui_menu_interaction_icon.png" style="height: 50px;" alt="">
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="carrocompra.html">Historial de compras</a>
+              <a class="dropdown-item" href="seguimiento.html">Seguimiento</a>
+              <a class="dropdown-item" href="rembolso.html">Reembolsos</a>
+            </div>
+          </div>
+        </div>  
+    </nav> 
+      <hr>
+    <header>
+        <div class="row">
+            <div class="col-sm-1">
+            </div>
+            <div class="col-sm-10">
+                <div class="card">
+                    <div class="card-body text-primary">
+                      <h1>Seguimiento de tu pedido</h1>
+                      <p>Introduce el código de seguimiento para confirmar si está en camino</p>
+                      <div class="container p-5 my-5 border text-primary" style="width: 90%">
+                        <form action="/action_page.php">
+                            <div class="mb-3 mt-3 ">
+                              <label for="seguimiento">Ingrese código de producto: </label>
+                              <input type="search" class="form-control" id="seguimiento" placeholder="010" name="seguimiento">
+                          </div>
+                          <button type="submit" class="btn btn-primary">Buscar</button>
+                        </form>
+                      </div>
+                      <div class="progress">
+                        <div class="progress-bar" style="width:20%">
+                          Pago confirmado
+                        </div>
+                        <div class="progress-bar " style="width:20%">
+                          Envio solicitado
+                        </div>
+                        <div class="progress-bar " style="width:20%">
+                          Recolectado
+                        </div>
+                        <div class="progress-bar " style="width:20%">
+                          En camino
+                        </div>
+                        <div class="progress-bar bg-success" style="width:20%">
+                          Entregado
+                        </div>
+                      </div>
+                      <div class="mt-1">
+                        <img src="img/Screenshot_1.png "  width="100%"  alt="">
+                      </div> 
+                      
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <div class="card">
+                            <div class="card-body">Detalles del envio: <p>Pedido enviado al domicilio Las golondrinas 301 <p>¿Esta no es tu dirección? </p> <a href="rembolso.html" class="btn btn-primary">Reembolso</a>  </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="card">
+                            <div class="card-body">Factura: 
+                              <p>Id: 8371 <p>Articulo:	Correa para perro</p> <p>Cantidad: 2</p> 
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1">
+
+            </div>
+        </div>
+        
+    </header>
+    
+
+
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>
